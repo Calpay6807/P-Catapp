@@ -19,7 +19,7 @@ import {
 const app = express();
 mongoose
   .connect(
-    "mongodb+srv://alpayc3:j47mly85AWNJY4ch@cluster0.bu0yoaf.mongodb.net/",
+    "mongodb+srv://username:password@cluster0.bu0yoaf.mongodb.net/",
     { autoIndex: false }
   )
   .then(() => {
